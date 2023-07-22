@@ -38,5 +38,70 @@
             4.4
         ],
         "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 5,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 6,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "promedio_valoraciones": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 7,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "promedio_valoraciones": 0,
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 8,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 9,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 10,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
     }
 ]

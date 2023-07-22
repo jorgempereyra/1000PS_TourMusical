@@ -1,4 +1,5 @@
 from datetime import datetime as dt
+from Promedio_calificaciones import act_promedio_calificaciones as aprom
 import json
 
 class Usuario:
@@ -49,9 +50,10 @@ class Usuario:
             })        
         with open('data/BD_Reviews.json','w') as outfile:    
             json.dump(reviews, outfile, indent=4)
-
+        
+        aprom() #Actualiza promedios de calificaciones
 #---PRUEBAS---        
-User1 = Usuario('Juaon','Paepgfjfjinoz')
-#User1.review(1,5,'Excelente servicio','Feliz')
-User1.visitar_ruta(6)
+User1 = Usuario('Juaon', 'Paepgfjfjinoz')
+User1.review(9, 10,'Excelente servicio', 'Feliz')
+#User1.visitar_ruta(6)
 #print (User1)

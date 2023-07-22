@@ -2,18 +2,20 @@
     {
         "id_evento": 1,
         "nombre": "Vino",
-        "id_ubicacion": 2,
-        "descripcion": "DS12345",
-        "imagen": "",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "promedio_valoraciones": 4.86,
         "dt_creacion": "2023-07-22"
     },
     {
         "id_evento": 2,
-        "nombre": "Comida",
+        "nombre": "Vino",
         "id_ubicacion": 1,
-        "descripcion": "DS678",
-        "imagen": "",
-        "dt_creacion": "2023-07-24"
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "promedio_valoraciones": 3.0,
+        "dt_creacion": "2023-07-22"
     },
     {
         "id_evento": 3,
@@ -21,6 +23,7 @@
         "id_ubicacion": 1,
         "descripcion": "abc123",
         "imagen": "/123.jpg",
+        "promedio_valoraciones": 4.86,
         "dt_creacion": "2023-07-22"
     },
     {
@@ -29,6 +32,7 @@
         "id_ubicacion": 1,
         "descripcion": "abc123",
         "imagen": "/123.jpg",
+        "promedio_valoraciones": 7.82,
         "dt_creacion": "2023-07-22"
     },
     {
@@ -37,6 +41,34 @@
         "id_ubicacion": 1,
         "descripcion": "abc123",
         "imagen": "/123.jpg",
+        "promedio_valoraciones": 0,
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_evento": 6,
+        "nombre": "Vino",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "promedio_valoraciones": 0,
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_evento": 7,
+        "nombre": "Vino",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "promedio_valoraciones": 10.0,
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_evento": 8,
+        "nombre": "Vino",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "promedio_valoraciones": 0,
         "dt_creacion": "2023-07-22"
     }
 ]
