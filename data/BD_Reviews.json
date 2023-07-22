@@ -1,0 +1,243 @@
+[
+    {
+        "id_review": 1,
+        "id_evento": 1,
+        "id_usuario": 1,
+        "calificacion": 5,
+        "comentario": "Excelente servicio, lo recomiendo totalmente.",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 2,
+        "id_evento": 2,
+        "id_usuario": 2,
+        "calificacion": 4,
+        "comentario": "Buen trato y atenci\u00c3\u00b3n r\u00c3\u00a1pida, le doy un 4.",
+        "animo": "Triste",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 3,
+        "id_evento": 2,
+        "id_usuario": 1,
+        "calificacion": 2,
+        "comentario": "Regular, podr\u00c3\u00adan mejorar en algunos aspectos. Le doy un 2.",
+        "animo": "Otro",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 4,
+        "id_evento": 1,
+        "id_usuario": 2,
+        "calificacion": 2,
+        "comentario": "Satisfecha con el producto, merece un 3.",
+        "animo": "Ofuscada",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 5,
+        "id_evento": 2,
+        "id_usuario": 1,
+        "calificacion": 1,
+        "comentario": "No qued\u00c3\u00a9 conforme con el servicio, le doy un 1.",
+        "animo": "Triste",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 6,
+        "id_evento": 1,
+        "id_usuario": [
+            6
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 7,
+        "id_evento": 1,
+        "id_usuario": "(7,)",
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 8,
+        "id_evento": 1,
+        "id_usuario": [
+            8
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 9,
+        "id_evento": 1,
+        "id_usuario": [
+            7
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 10,
+        "id_evento": 1,
+        "id_usuario": [
+            8
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 11,
+        "id_evento": 1,
+        "id_usuario": [
+            10
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 12,
+        "id_evento": 1,
+        "id_usuario": [
+            11
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 13,
+        "id_evento": 1,
+        "id_usuario": 12,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 14,
+        "id_evento": 1,
+        "id_usuario": 14,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 15,
+        "id_evento": 1,
+        "id_usuario": [
+            15
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 16,
+        "id_evento": 1,
+        "id_usuario": [
+            16
+        ],
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 17,
+        "id_evento": 1,
+        "id_usuario": 17,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 18,
+        "id_evento": 1,
+        "id_usuario": 18,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 19,
+        "id_evento": 1,
+        "id_usuario": 19,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 20,
+        "id_evento": 1,
+        "id_usuario": 20,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 21,
+        "id_evento": 1,
+        "id_usuario": 21,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 22,
+        "id_evento": 1,
+        "id_usuario": 22,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 23,
+        "id_evento": 1,
+        "id_usuario": 23,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 24,
+        "id_evento": 1,
+        "id_usuario": 24,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 25,
+        "id_evento": 1,
+        "id_usuario": 25,
+        "calificacion": 5,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-22"
+    }
+]

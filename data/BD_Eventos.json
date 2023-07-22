@@ -1,0 +1,42 @@
+[
+    {
+        "id_evento": 1,
+        "nombre": "Vino",
+        "id_ubicacion": 2,
+        "descripcion": "DS12345",
+        "imagen": "",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_evento": 2,
+        "nombre": "Comida",
+        "id_ubicacion": 1,
+        "descripcion": "DS678",
+        "imagen": "",
+        "dt_creacion": "2023-07-24"
+    },
+    {
+        "id_evento": 3,
+        "nombre": "Vino",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_evento": 4,
+        "nombre": "Vino",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_evento": 5,
+        "nombre": "Vino",
+        "id_ubicacion": 1,
+        "descripcion": "abc123",
+        "imagen": "/123.jpg",
+        "dt_creacion": "2023-07-22"
+    }
+]

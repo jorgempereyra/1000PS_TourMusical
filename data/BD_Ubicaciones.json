@@ -1,0 +1,42 @@
+[
+    {
+        "id_ubicacion": 1,
+        "ubicacion": "Hotel",
+        "direccion": "Avenida 1234",
+        "id_coordenadas": [
+            4,
+            5
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 2,
+        "ubicacion": "Casa de campo",
+        "direccion": "Avenida 456",
+        "id_coordenadas": [
+            1,
+            3
+        ],
+        "dt_creacion": "2023-07-21"
+    },
+    {
+        "id_ubicacion": 3,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_ubicacion": 4,
+        "ubicacion": "Hotel",
+        "direccion": "Calle 1",
+        "coordenadas": [
+            3.4,
+            4.4
+        ],
+        "dt_creacion": "2023-07-22"
+    }
+]

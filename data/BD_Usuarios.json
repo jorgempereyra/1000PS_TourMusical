@@ -1,0 +1,255 @@
+[
+    {
+        "id_usuario": 1,
+        "nombre": "Juan",
+        "apellido": "32532521",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 2,
+        "nombre": "Mar\u00c3\u00ada",
+        "apellido": "32532522",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 3,
+        "nombre": "Pedro",
+        "apellido": "32532523",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 4,
+        "nombre": "Laura",
+        "apellido": "32532524",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 5,
+        "nombre": "Carlos",
+        "apellido": "32532525",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 6,
+        "nombre": "Juan Perez",
+        "apellido": "32532526",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 7,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 8,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 9,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 10,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 11,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 12,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 13,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 14,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 15,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 16,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 17,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 18,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 19,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 20,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 21,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 22,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [
+            1
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 23,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [
+            [
+                1
+            ]
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 24,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [
+            1
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 25,
+        "nombre": "Juan",
+        "apellido": "Pepinoz",
+        "historial_rutas": [
+            1,
+            3,
+            5,
+            6
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 26,
+        "nombre": "Juaon",
+        "apellido": "Paepinoz",
+        "historial_rutas": [
+            1,
+            3,
+            5,
+            6
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 27,
+        "nombre": "Juaon",
+        "apellido": "Paepinoz",
+        "historial_rutas": [
+            1,
+            3,
+            5,
+            6
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 28,
+        "nombre": "Juaon",
+        "apellido": "Paepinoz",
+        "historial_rutas": [
+            1,
+            3,
+            5,
+            6
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 29,
+        "nombre": "Juaon",
+        "apellido": "Paepinoz",
+        "historial_rutas": [
+            1,
+            1,
+            1
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 30,
+        "nombre": "Juaon",
+        "apellido": "Paepgfjfjinoz",
+        "historial_rutas": [
+            6
+        ],
+        "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 31,
+        "nombre": "Juaon",
+        "apellido": "Paepgfjfjinoz",
+        "historial_rutas": [
+            6
+        ],
+        "dt_creacion": "2023-07-22"
+    }
+]
