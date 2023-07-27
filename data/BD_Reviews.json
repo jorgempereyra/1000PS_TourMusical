@@ -689,5 +689,23 @@
         "comentario": "Excelente servicio",
         "animo": "Feliz",
         "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_review": 76,
+        "id_evento": 9,
+        "id_usuario": 82,
+        "calificacion": 10,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-27"
+    },
+    {
+        "id_review": 77,
+        "id_evento": 9,
+        "id_usuario": 82,
+        "calificacion": 10,
+        "comentario": "Excelente servicio",
+        "animo": "Feliz",
+        "dt_creacion": "2023-07-27"
     }
 ]

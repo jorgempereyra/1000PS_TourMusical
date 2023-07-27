@@ -601,5 +601,12 @@
         "apellido": "Paepgfjfjinoz",
         "historial_rutas": [],
         "dt_creacion": "2023-07-22"
+    },
+    {
+        "id_usuario": 82,
+        "nombre": "Juaon",
+        "apellido": "Paepgfjfjinoz",
+        "historial_eventos": [],
+        "dt_creacion": "<built-in method fromisoformat of type object at 0x00007FFB01581960>"
     }
 ]

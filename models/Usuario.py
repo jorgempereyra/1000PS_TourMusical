@@ -6,19 +6,22 @@ class Usuario:
     def __init__(self,nombre,apellido):
         with open('data/BD_Usuarios.json','r') as f:
             usuarios = json.load(f)
-        self.id_usuario = usuarios[-1]['id_usuario'] + 1
-        self.nombre = nombre
-        self.apellido = apellido
-        self.historial_rutas = []
-        self.f_creacion = dt.now().date()
+        self.id_usuario = usuarios[-1]['id_usuario'] + 1 #int
+        self.nombre = nombre #str
+        self.apellido = apellido #str
+        self.historial_eventos = [] #list
+        self.f_creacion = dt.now().date() #str
     
     # Guarda los comentarios en BD_Usuarios.json   
+    def addDB(self):
+        with open('data/BD_Usuarios.json','r') as f:
+            usuarios = json.load(f)
         usuarios.append({
                 'id_usuario': self.id_usuario,
                 'nombre': self.nombre,
                 'apellido': self.apellido,
-                'historial_rutas': [],
-                'dt_creacion': str(dt.now().date())
+                'historial_eventos': [],
+                'dt_creacion': str(dt.now().date().fromisoformat)
         })       
         with open('data/BD_Usuarios.json','w') as outfile:    
             json.dump(usuarios, outfile, indent=4)
@@ -27,10 +30,10 @@ class Usuario:
         return f'Soy {self.nombre} mi apellido es {self.apellido} y mi cuenta fue creada el {self.f_creacion}. He visitado {self.historial_rutas}.'
 
     # Agrega eventos a historial_rutas de BD_Usuarios.json
-    def visitar_ruta(self, id_ruta):
+    def agregar_lista_eventos(self, id_evento):
         with open('data/BD_Usuarios.json','r') as f:
             usuarios = json.load(f)
-        usuarios[self.id_usuario-1]['historial_rutas'].append(id_ruta)
+        usuarios[self.id_usuario-1]['historial_eventos'].append(id_evento)
 
         with open('data/BD_Usuarios.json','w') as outfile:
             json.dump(usuarios, outfile, indent=4)
@@ -52,8 +55,9 @@ class Usuario:
             json.dump(reviews, outfile, indent=4)
         
         aprom() #Actualiza promedios de calificaciones
+
 #---PRUEBAS---        
 User1 = Usuario('Juaon', 'Paepgfjfjinoz')
 User1.review(9, 10,'Excelente servicio', 'Feliz')
-#User1.visitar_ruta(6)
+User1.addDB()
 #print (User1)
