@@ -1,10 +1,10 @@
 from datetime import datetime as dt
-import json as js
+import json
 
 class Evento:
     def __init__(self, nombre, artista, genero, id_ubicacion, hora_inicio, hora_fin, descripcion, imagen):
         with open('data/BD_Eventos.json','r') as f:
-            eventos = js.load(f)
+            eventos = json.load(f)
         self.id_evento = eventos[-1]['id_evento'] + 1
         self.nombre = nombre
         self.artista = artista
@@ -17,10 +17,18 @@ class Evento:
         self.promedio_valoraciones = 0
         self.f_creacion = dt.now().date()
     
-    # Guarda las eventos en BD_Eventos.json   
+    # Lee las eventos en BD_Eventos.json   
+    def from_json(cls):
+        bd = 'data/BD_Eventos.json'
+        with open(bd, "r") as f:
+            data = json.load(f)
+        return [cls(**item) for item in data]
+    
+    
+    
     def addDB(self):
         with open('data/BD_Eventos.json','r') as f:
-            eventos = js.load(f)
+            eventos = json.load(f)
         eventos.append({
                 'id_evento': self.id_evento,
                 'nombre': self.nombre,
@@ -35,7 +43,7 @@ class Evento:
                 'dt_creacion': str(dt.now().date())
         })       
         with open('data/BD_Eventos.json','w') as outfile:    
-            js.dump(eventos, outfile, indent=4)
+            json.dump(eventos, outfile, indent=4)
             
     def __str__(self):
         return f'Soy el evento {self.nombre} y tengo estos datos {self.id_evento}, {self.id_ubicacion}, {self.descripcion}, {self.imagen} . Fui creado el {self.f_creacion}.'

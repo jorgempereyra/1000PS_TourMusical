@@ -1,4 +1,5 @@
 from customtkinter import CTk, CTkFrame, CTkLabel, CTkButton
+
 root = CTk()
 
 root.geometry("500x500")
