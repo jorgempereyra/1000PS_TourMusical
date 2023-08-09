@@ -1,11 +1,11 @@
-import json as js   
+import json  
 def act_promedio_calificaciones():   
         total_sum, count = 0, 0
         # Carga desde BD_Reviews.json
         with open("data/BD_Reviews.json", "r") as f_rev:
-            reviews = js.load(f_rev)
+            reviews = json.load(f_rev)
         with open("data/BD_Eventos.json", "r") as f_eve:
-            eventos = js.load(f_eve)
+            eventos = json.load(f_eve)
         # Busca coincidencias entre BD_Reviews.json y BD_Eventos.json para el campo 'id_evento'
             for evento in eventos:
                 for review in reviews:
@@ -19,6 +19,6 @@ def act_promedio_calificaciones():
                 total_sum, count = 0, 0
         # Actualiza Promedio_Calificaciones en BD_Eventos.json           
             with open("data/BD_Eventos.json", "w") as f_even:
-                js.dump(eventos, f_even, indent=4)
+                json.dump(eventos, f_even, indent=4)
 
 #act_promedio_calificaciones()
