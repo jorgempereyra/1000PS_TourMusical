@@ -18,32 +18,19 @@ class Evento:
         self.f_creacion = dt.now().date()
     
     # Lee las eventos en BD_Eventos.json   
-    def from_json(cls):
-        bd = 'data/BD_Eventos.json'
-        with open(bd, "r") as f:
-            data = json.load(f)
-        return [cls(**item) for item in data]
+    def a_json(self):
+        return json.dumps(self.__dict__)
+
+    @classmethod
+    def de_json(cls, datos_json):
+        datos = json.loads(datos_json)
+        return cls(**datos)
     
-    
-    
-    def addDB(self):
-        with open('data/BD_Eventos.json','r') as f:
-            eventos = json.load(f)
-        eventos.append({
-                'id_evento': self.id_evento,
-                'nombre': self.nombre,
-                'artista': self.artista,
-                'genero': self.genero,
-                'id_ubicacion': self.id_ubicacion,
-                'hora_inicio': self.hora_inicio,
-                'hora_fin': self.hora_fin,
-                'descripcion': self.descripcion,
-                'imagen': self.imagen,
-                'promedio_valoraciones': self.promedio_valoraciones,
-                'dt_creacion': str(dt.now().date())
-        })       
-        with open('data/BD_Eventos.json','w') as outfile:    
-            json.dump(eventos, outfile, indent=4)
+    @staticmethod
+    def cargar_eventos():
+        with open('data/BD_Eventos.json', "r") as archivo:
+            datos = json.load(archivo)
+        return [Evento.de_json(json.dumps(dato)) for dato in datos]
             
     def __str__(self):
         return f'Soy el evento {self.nombre} y tengo estos datos {self.id_evento}, {self.id_ubicacion}, {self.descripcion}, {self.imagen} . Fui creado el {self.f_creacion}.'

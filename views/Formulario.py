@@ -1,8 +1,9 @@
 # formulario.py
-import customtkinter as CTkField
-from tkinter import filedialog
-import json
-from models.evento import Evento
+from customtkinter import CTkFrame, CTkLabel
 
-Evento1 = Evento('Vino',1,"abc123","/123.jpg")
-print(Evento1.from_json())
+class Vista_Formulario(CTkFrame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        
+        self.label = CTkLabel(self, text="Esta es la vista de Formulario")
+        self.label.pack(fill="both", expand=True, padx=10, pady=10)

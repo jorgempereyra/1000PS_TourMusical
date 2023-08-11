@@ -9,23 +9,21 @@ class Ruta:
         self.nombre = nombre #str
         self.eventos = args #list
         self.f_creacion = dt.now().isoformat() #str
-    
-    
-    
-    
-    
+        
     # Guarda las rutas en BD_Rutas_Visitas.json   
-    def addDB(self):    
-        with open('data/BD_Rutas_Visitas.json','r') as f:
-            rutas = json.load(f)
-        rutas.append({
-                'id_ruta': self.id_ruta,
-                'nombre': self.nombre,
-                'eventos': self.eventos,
-                'dt_creacion': str(dt.now().isoformat())
-        })       
-        with open('data/BD_Rutas_Visitas.json','w') as outfile:    
-            json.dump(rutas, outfile, indent=4)
+    def a_json(self):
+        return json.dumps(self.__dict__)
+
+    @classmethod
+    def de_json(cls, datos_json):
+        datos = json.loads(datos_json)
+        return cls(**datos)
+    
+    @staticmethod
+    def cargar_ubicaciones():
+        with open('data/BD_Rutas_Visitas.json', "r") as archivo:
+            datos = json.load(archivo)
+        return [Ruta.de_json(json.dumps(dato)) for dato in datos]
 
     def __str__(self):
         return f'Soy {self.nombre} y tengo estos eventos {self.eventos} y mi cuenta fue creada el {self.f_creacion}.'
