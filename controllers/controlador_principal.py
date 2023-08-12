@@ -50,6 +50,7 @@ class ControladorPrincipal:
 
         print(f"Latitud: {ubicacion_seleccionada.latitud}, Longitud: {ubicacion_seleccionada.longitud}")
 
+
 def seleccionar_ubicacion(marcador):
     if marcador.image_hidden is True:
         marcador.hide_image(False)

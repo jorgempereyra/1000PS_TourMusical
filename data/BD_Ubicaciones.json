@@ -1,106 +1,101 @@
 [
     {
         "id_ubicacion": 1,
-        "ubicacion": "Hotel",
-        "direccion": "Avenida 1234",
+        "ubicacion": "Hotel Selva",
+        "direccion": "Avenida San Martín 567",
         "id_coordenadas": [
-            4,
-            5
+            -24.782301,
+            -65.412345
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 2,
-        "ubicacion": "Casa de campo",
-        "direccion": "Avenida 456",
+        "ubicacion": "Restaurante Sabores",
+        "direccion": "Calle Balcarce 890",
         "id_coordenadas": [
-            1,
-            3
+            -24.789012,
+            -65.413456
         ],
-        "dt_creacion": "2023-07-21"
+        "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 3,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Plaza Principal",
+        "direccion": "Plaza 9 de Julio",
+        "id_coordenadas": [
+            -24.786543,
+            -65.411234
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 4,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Museo de Arte Contemporáneo",
+        "direccion": "Calle Alvarado 123",
+        "id_coordenadas": [
+            -24.784567,
+            -65.415678
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 5,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Cerro San Bernardo",
+        "direccion": "Ruta 26, Km 12",
+        "id_coordenadas": [
+            -24.779876,
+            -65.404567
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 6,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
-        ],
-        "promedio_valoraciones": [
-            3.4,
-            4.4
+        "ubicacion": "Teatro Provincial",
+        "direccion": "Avenida Belgrano 1100",
+        "id_coordenadas": [
+            -24.781234,
+            -65.406789
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 7,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Catedral Basílica de Salta",
+        "direccion": "Calle Caseros 548",
+        "id_coordenadas": [
+            -24.785678,
+            -65.409012
         ],
-        "promedio_valoraciones": 0,
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 8,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Mercado San Miguel",
+        "direccion": "Calle España 765",
+        "id_coordenadas": [
+            -24.782345,
+            -65.408901
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 9,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Parque San Martín",
+        "direccion": "Avenida Mate de Luna 1300",
+        "id_coordenadas": [
+            -24.778901,
+            -65.413234
         ],
         "dt_creacion": "2023-07-22"
     },
     {
         "id_ubicacion": 10,
-        "ubicacion": "Hotel",
-        "direccion": "Calle 1",
-        "coordenadas": [
-            3.4,
-            4.4
+        "ubicacion": "Iglesia San Francisco",
+        "direccion": "Calle Zuviría 601",
+        "id_coordenadas": [
+            -24.786789,
+            -65.410345
         ],
         "dt_creacion": "2023-07-22"
     }
